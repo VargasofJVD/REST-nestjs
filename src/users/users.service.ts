@@ -1,6 +1,5 @@
-//users/users.service.ts is a file that contains the business logic for managing users in a NestJS application.
-//it provides methods to create, read, update, and delete user data, as well as to filter users by their roles.
-//generally, it interacts with a data source (like a database) to perform these operations, but in this case, it uses an in-memory array to store user information.
+
+//
 import { Injectable } from '@nestjs/common';
 import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
